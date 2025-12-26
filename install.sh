@@ -12,9 +12,6 @@ case "$OS" in
             x86_64)
                 TARGET="x86_64-unknown-linux-gnu"
                 ;;
-            aarch64|arm64)
-                TARGET="aarch64-unknown-linux-gnu"
-                ;;
             *)
                 echo "Unsupported architecture: $ARCH"
                 exit 1
